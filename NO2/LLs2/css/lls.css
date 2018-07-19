@@ -1,0 +1,65 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*公用*/
+.safe{
+    width: 1000px;
+    margin: 0 auto;  }
+/*左浮动*/
+ .left{float: left}
+/*右浮动 */
+.right{float: right}
+/*清楚浮动*/
+.clear::after{
+    content:'';
+    display: block;
+    clear: both;  }
+/*头部*/
+header{height: 98px;
+}
+ .logo{padding-top: 15px}
+nav>a{text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 98px;
+    height: 98px;
+    display: inline-block;  }
+nav>a.on{
+    color: #00a1f1;
+    border-bottom: 3px solid #00a1f1;
+}
+nav>a:active{color: #00a1f1;
+    border-bottom: 3px solid #00a1f1;}
+
+/*banner*/
+#banner{height: 500px;
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.a111{width: 120px;height: 120px;border-radius: 50%;border: 1px solid #00a1f1}
+.a111>i{font-size: 46px;
+    color: #00a1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
